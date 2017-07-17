@@ -4,7 +4,7 @@
 
 ## Learning Objectives
 
-- Review Ruby arrays and hashes
+- Review Ruby arrays and hashes.
 - Use Ruby loops to iterate over code blocks.
 - Define what a Ruby enumerable method is.
 - Use enumerables to traverse, sort and modify collections.
@@ -16,9 +16,8 @@ One of the most common things we do as developers is to iterate through data str
 
 Whenever we talk about data in Ruby, its important to review how Ruby handles groups of data.
 
-We learned how to iterate over collections in Javascript using loops and then higher order functions.
+We learned how to iterate over collections in Javascript first using loops and then using higher order functions.
 Now we're going to learn the same in Ruby.
-Just like in Javascript, we'll start talking about loops before talking about how to execute a particular code block for each element of a collection.
 
 ## Review: Ruby Collections
 
@@ -54,7 +53,7 @@ users = ["Alice", "Bob", "Carol"]
 
 ### [Hashes](http://ruby-doc.org/core-2.3.0/Hash.html)
 
-Hashes are like Javascript Object Literals, but with a somewhat different syntax.
+Hashes are like Javascript object literals, but with a somewhat different syntax.
 
 Consider:
 
@@ -94,7 +93,7 @@ user = {
         <li>Ruby: <code>user[:name]</code> </li>
       </ul>
     </li>
-    <li>.push, .pop, .join</li>
+    <li><code>.push</code>, <code>.pop</code>, <code>.join</code></li>
     <li> <a href="https://ruby-doc.org/core-2.2.3/Enumerable.html">Ruby Docs!</a> </li>
   </ol>
 </details>
@@ -107,7 +106,7 @@ Another similarity Ruby shares with Javascript is base support for various types
 
 <details>
 <summary>What loops did we use in Javascript?</summary>
-<code>while</code>, <code>do...while</code>, <code>for</code>, <code>for...in</code>, <code>.forEach</code>
+<code>while</code>, <code>for</code>, <code>for...in</code>, <code>.forEach</code>
 </details>
 
 ### Looping with Ruby
@@ -126,9 +125,7 @@ end
 <code>puts person</code> instead of <code>puts user</code>
 </details>
 
-> *In English*, describe the differences between `while`, `until`, `loop`, and `.times`.
-
-
+#### Practice with Loops
 Set up your development environment for testing out the different types of loops found in the code snippets below...
 
 1. Create a new file in your "sandbox" directory called `loops.rb`
@@ -214,6 +211,8 @@ end
 <code>next</code> tells the computer to skip the rest of the code inside the loop for this iteration, and go to the next iteration of the loop. <code>break</code> stops the loop iterating altogether.
 </details>
 
+<br />
+
 > [Further Reading on Ruby loops](http://www.tutorialspoint.com/ruby/ruby_loops.htm)
 
 ## Exercise: [Club Ruby](https://github.com/ga-wdi-exercises/club_ruby) (20 / 50)
@@ -245,7 +244,7 @@ while index < users.length
 end
 ```
 
-#### `each` is an enumerator and `users` is an enumberable
+#### `each` is an enumberable
 
 ```rb
 users = ["Alice", "Bob", "Carol"]
@@ -276,7 +275,7 @@ users.each{ |user| puts user }
 
 <details>
 <summary>What is the difference between these two snippets?</summary>
-They are equivalent, though the 'do' 'end' is said to be more semantic and closer to natural language.
+They are equivalent, though the <code>do</code> <code>end</code> is said to be more semantic and closer to natural language.
 </details>
 
 <details>
