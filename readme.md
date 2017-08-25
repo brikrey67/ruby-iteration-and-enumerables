@@ -22,7 +22,7 @@ Now we're going to learn the same in Ruby.
 ## Review: Ruby Collections
 
 <details>
-<summary>What are the different types of collections in Ruby?</summary>
+<summary>What are the different types of collections we've learned about in Ruby?</summary>
 Arrays <code>[]</code> and hashes <code>{}</code>
 </details>
 
@@ -215,7 +215,7 @@ end
 
 > [Further Reading on Ruby loops](http://www.tutorialspoint.com/ruby/ruby_loops.htm)
 
-## Exercise: [Club Ruby](https://github.com/ga-wdi-exercises/club_ruby) (20 / 50)
+## Exercise: [Club Ruby](https://git.generalassemb.ly/ga-wdi-exercises/club_ruby) (20 / 50)
 
 ## Break (10 / 60)
 
@@ -471,16 +471,16 @@ The enumerables are:
 ## Sample quiz questions
 
 1. What is the difference between `loops` and `enumerables` in Ruby?
-1. What are some examples of loops in Ruby that are not in JS?
-1. Differentiate between Ruby's `each` and `map` methods
-1. What is an `iteration` variable?
-1. List 5 useful Ruby enumerable methods
+2. What are some examples of loops in Ruby that are not in JS?
+3. Differentiate between Ruby's `each` and `map` methods
+4. What is an `iteration` variable?
+5. List 5 useful Ruby enumerable methods
 
 ## Homework: High Card
 
 Combine your knowledge of Ruby basics and enumerables to make a simple card game.
 
-[High Card](https://github.com/ga-wdi-exercises/high_card)
+[High Card](https://git.generalassemb.ly/ga-wdi-exercises/high_card)
 
 ## Resources
 
