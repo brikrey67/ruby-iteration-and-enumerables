@@ -473,8 +473,7 @@ The enumerables are:
 1. What is the difference between `loops` and `enumerables` in Ruby?
 2. What are some examples of loops in Ruby that are not in JS?
 3. Differentiate between Ruby's `each` and `map` methods
-4. What is an `iteration` variable?
-5. List 5 useful Ruby enumerable methods
+4. List 5 useful Ruby enumerable methods
 
 ## Homework: High Card
 
