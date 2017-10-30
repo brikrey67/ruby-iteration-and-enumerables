@@ -10,7 +10,7 @@
 - Use enumerables to traverse, sort and modify collections.
 - Identify useful Ruby enumerables, including `.each`, `.map` and `.select`.
 
-## Framing (10 / 10)
+## Framing (15 / 15)
 
 One of the most common things we do as developers is to iterate through data structures.
 
@@ -98,7 +98,7 @@ user = {
   </ol>
 </details>
 
-## Loops (20 / 30)
+## Loops (15 / 30)
 
 Another similarity Ruby shares with Javascript is base support for various types of loops.
 
@@ -154,7 +154,7 @@ puts "You made it out! Congrats!"
 
 ```rb
 input = ""
-puts "You must guess the Magic Words to exit the while loop!"
+puts "You must guess the Magic Words to exit the until loop!"
 until input == "Magic Words" do
   puts "What are the Magic Words?"
   input = gets.chomp
@@ -165,7 +165,7 @@ puts "You made it out! Congrats!"
 #### [loop](https://ruby-doc.org/core-2.2.0/Kernel.html#method-i-loop)
 
 ```rb
-puts "You must guess the Magic Words to exit the while loop!"
+puts "You must guess the Magic Words to exit the loop!"
 loop do
   puts "What are the Magic Words?"
   input = gets.chomp
